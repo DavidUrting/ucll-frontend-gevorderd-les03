@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening02.BootstrapViaCDN.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening03.BootstrapViaNPM.Web", "Oefening03.BootstrapViaNPM.Web\Oefening03.BootstrapViaNPM.Web.csproj", "{29364AEA-69A5-432E-93E1-3C7FC94673FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oefening04.UrlCheckerWithStyle.Web", "Oefening4.UrlCheckerWithStyle.Web\Oefening04.UrlCheckerWithStyle.Web.csproj", "{795BCE75-3AC0-47C6-BED1-6676FEE39F54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oefening04.UrlCheckerWithStyle.Web", "Oefening04.UrlCheckerWithStyle.Web\Oefening04.UrlCheckerWithStyle.Web.csproj", "{795BCE75-3AC0-47C6-BED1-6676FEE39F54}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oefening05.BundelenJavaScriptBestanden.Web", "Oefening05.BundelenJavaScriptBestanden.Web\Oefening05.BundelenJavaScriptBestanden.Web.csproj", "{32ED1515-A4D6-4F54-97ED-28877D5D414B}"
 EndProject
