@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Oefening02_BootstrapViaCDN</RootNamespace>
+    <RootNamespace>Oefening01.PostCSS.Web</RootNamespace>
   </PropertyGroup>
 
 </Project>

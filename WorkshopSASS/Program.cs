@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace WorkshopSASS
+namespace WorkshopSASS.Web
 {
     public class Program
     {

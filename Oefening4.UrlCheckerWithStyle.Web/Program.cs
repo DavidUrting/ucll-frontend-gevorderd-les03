@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace Oefening03.BootstrapViaNPM.Web
+namespace Oefening04.UrlCheckerWithStyle.Web
 {
     public class Program
     {

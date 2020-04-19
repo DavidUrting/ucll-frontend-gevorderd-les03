@@ -2,8 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>WorkshopSASS</RootNamespace>
-    <AssemblyName>WorkshopSASS</AssemblyName>
+    <RootNamespace>Oefening02.BootstrapViaCDN.Web</RootNamespace>
   </PropertyGroup>
 
 </Project>
