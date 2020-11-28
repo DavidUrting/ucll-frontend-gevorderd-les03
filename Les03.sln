@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening03.BootstrapViaNPM.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening04.UrlCheckerWithStyle.Web", "Oefening04.UrlCheckerWithStyle.Web\Oefening04.UrlCheckerWithStyle.Web.csproj", "{795BCE75-3AC0-47C6-BED1-6676FEE39F54}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening05.JavaScriptBundling.Web", "Oefening05.JavaScriptBundling.Web\Oefening05.JavaScriptBundling.Web.csproj", "{32ED1515-A4D6-4F54-97ED-28877D5D414B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.JavaScriptBundling.Web", "Demo.JavaScriptBundling.Web\Demo.JavaScriptBundling.Web.csproj", "{32ED1515-A4D6-4F54-97ED-28877D5D414B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

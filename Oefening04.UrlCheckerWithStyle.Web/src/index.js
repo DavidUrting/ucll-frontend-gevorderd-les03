@@ -8,7 +8,11 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // De 'eigen' CSS toevoegen. 
-import './site.css';
+// (!) Normaal zou dat in de map /src moeten opgenomen worden maar aangezien deze oefening ook 
+// de niet-webpack variant demonstreert werd het site.css bestand opgenomen in wwwroot.
+import '../wwwroot/site.css';
 
 // En de UrlChecker JavaScript implementatie uiteraard...
-import './url-checker';
+// (!) Normaal zou dat in de map /src moeten opgenomen worden maar aangezien deze oefening ook 
+// de niet-webpack variant demonstreert werd het url-checker.js bestand opgenomen in wwwroot.
+import '../wwwroot/url-checker';

@@ -2,7 +2,7 @@
 module.exports = { 
   entry: { main: './src/index.js' },
   output: {
-    filename: '../wwwroot/main.js'
+    filename: '../wwwroot/webpack-output.js'
   },
   module: {
     rules: [

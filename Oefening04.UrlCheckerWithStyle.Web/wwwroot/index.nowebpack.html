@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>UCLL URL Checker v2 (Bootstrap zonder webpack)</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Eigen CSS -->
+    <link href="site.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>UCLL URL Checker v2 (Bootstrap zonder webpack)</h1>
+    <form>
+        <!-- Test strings:
+            https://www.symbolics.com:8080/hello?who=world#fragment
+        -->
+        <label for="url">Te valideren URL</label>
+        <input type="text" id="url" name="url" class="input-large" />
+        <span id="feedback"></span>
+        <br />
+        <!-- Deze button gaat nog steeds uit van een 'checkUrl' functie die globaal gedefinieerd werd.
+            Om dat te kunnen verwezenlijken hebben we de functie zelf moeten plaatsen op het window object in url-checker.js
+            Zie de commentaar in die file voor meer info.
+            -->
+        <input type="button" value="Controleer" onclick="checkUrl()" />
+    </form>
+    <section id="urlParts" style="display: none">
+        <hr />
+        <label for="url" class="label-medium">Schema</label>
+        <input type="text" id="schema" name="schema" readonly />
+        <br />
+        <label for="url" class="label-medium">Host</label>
+        <input type="text" id="host" name="host" readonly />
+        <br />
+        <label for="url" class="label-medium">Port</label>
+        <input type="text" id="port" name="port" readonly />
+        <br />
+        <label for="url" class="label-medium">Path</label>
+        <input type="text" id="path" name="path" readonly />
+        <br />
+        <label for="url" class="label-medium">Query string</label>
+        <input type="text" id="query" name="query" readonly />
+        <br />
+        <label for="url" class="label-medium">Fragment</label>
+        <input type="text" id="fragment" name="fragment" readonly />
+    </section>
+
+    <!-- JavaScript voor Bootstrap 4 -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Eigen JavaScript (URL checker implementatie) -->
+    <script src="url-checker.js"></script>
+</body>
+</html>
